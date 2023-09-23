@@ -31,7 +31,6 @@
     var DateRangePicker = function(element, options, cb) {
 
         //default settings for options
-        console.log("haiiii");
         this.parentEl = 'body';
         this.element = $(element);
         this.startDate = moment().startOf('day');
